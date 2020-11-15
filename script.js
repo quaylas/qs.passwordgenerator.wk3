@@ -7,7 +7,7 @@ var specialCharacters = ['!','"','#','$','%','&','\'','(',')','*','+',',','-','.
 var passwordChars = [];
 
 // generatePassword function
-function generatePassword(x){
+function generatePassword(){
   // Request the user provide a password length
   var passwordLength = parseInt(prompt("How many characters should your password contain?\nPlease enter a number between 8 and 128."));
 
@@ -44,20 +44,19 @@ function generatePassword(x){
     }
       // generate password using selected data types
     else {
-      var password = "";
+      var generatedPassword = "";
       for(var i = 0; i < passwordLength; i++){
         var randomNumber = Math.floor(Math.random()*(passwordChars.length));
         var nextChar = passwordChars[randomNumber];
-        console.log(`new password will be ${password} + ${nextChar}, iterator is at ${i}, random number is ${randomNumber}, length of passwordChars is ${passwordChars.length}`);
-        password = password.concat(nextChar);
+        generatedPassword = generatedPassword.concat(nextChar);
       }
       passwordChars = [];
-      return(password);
+      return(generatedPassword);
     }
   }
   // alert and restart for invalid password lengths
   else {
-    alert("Please enter a number between 8 and 128");
+    alert("You have entered an invalid password length.\nPlease enter a number between 8 and 128");
     generatePassword();
   }
 }

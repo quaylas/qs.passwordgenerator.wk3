@@ -1,12 +1,13 @@
 # Challenge 2: Portfolio | QS
 
-For this week's challenge, we developed an interactive random password generator. 
+For this week's challenge, we developed an interactive random password generator. The password generator is available [here](https://quaylas.github.io/qs.passwordgenerator.wk3/). 
 
 Users may indicate the desired password length (8-128 characters) as well as what character types should be included.
 
 Table of Contents
 * [User Story and Acceptance Criteria](user-story-and-acceptance-criteria)
 * [Key Features](key-features)
+* [Images](images)
 
 ---
 
@@ -68,13 +69,8 @@ THEN the password is either displayed in an alert or written to the page
 
 1440px X 1112px
 
-![Image of desktop view](./assets/images/DesktopView.png)
-
-### iPad View
-
-768px X 1024px
-
-![Image of iPad view](./assets/images/iPadView.png)
+![Image of desktop view with prompt for password length](./assets/images/desktopLengthPrompt.png)
+![Image of desktop view with prompt to enter a valid password length](./assets/images/desktopLengthValidationPrompt.png)
 
 ### iPhone 6 View
 
