@@ -1,4 +1,4 @@
-# Challenge 2: Portfolio | QS
+# Challenge 3: Password Generator | QS
 
 For this week's challenge, we developed an interactive random password generator. The password generator is available [here](https://quaylas.github.io/qs.passwordgenerator.wk3/). 
 
