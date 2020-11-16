@@ -56,11 +56,9 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Key Features
 
-* Users may specify their desired password length. 
-* Users may indicate whether the password should contain lowercase letters
-* Users may indicate whether the password should contain uppercas letters
-* Users may indicate whether the password should contain numbers
-* Users may indicate whether the password should contain special characters
+* Users may specify their desired password length.
+* Users may choose whether the password contains lowercase letters, uppercase letters, numbers, and/or special characters.
+* If users do not select any character types to include, their chosen length is retained and they are asked again which characters to include.
 
 ---
 
