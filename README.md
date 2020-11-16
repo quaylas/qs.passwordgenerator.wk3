@@ -74,5 +74,5 @@ THEN the password is either displayed in an alert or written to the page
 
 375px X 667px
 
-![Image of mobile view with prompt for password length](./assets/images/mobileLengthPrompt.png)
-![Image of mobile view with prompt to enter a valid password length](./assets/images/mobileLengthValidationPrompt.png)
+![Image of mobile view with prompt for password length](./assets/images/mobileLengthPrompt.PNG)
+![Image of mobile view with prompt to enter a valid password length](./assets/images/mobileLengthValidationPrompt.PNG)
