@@ -65,7 +65,7 @@ var getCharTypes = function() {
   }
 
   // check to ensure at least one character type was selected, and repeat if not
-  if (passwordChars.length === 0){
+  if (useLowercase === false && useUppercase === false && useNumbers === false && useSpecialCharacters === false){
     alert("You must allow at least one character type.");
     getCharTypes();
   }
@@ -74,8 +74,10 @@ var getCharTypes = function() {
 var generatePassword = function(){
   // call function to get password length
   getPasswordLength();
+
   // call function to get password character types
   getCharTypes();
+
   // generate password one character at a time using returned password length and character types
   for(var i = 0; i < passwordLength; i++){
     var randomNumber = Math.floor(Math.random()*(passwordChars.length));
