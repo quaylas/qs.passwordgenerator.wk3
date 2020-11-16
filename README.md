@@ -76,4 +76,5 @@ THEN the password is either displayed in an alert or written to the page
 
 375px X 667px
 
-![Image of iPhone 6 view](./assets/images/iPhone6View.png)
+![Image of mobile view with prompt for password length](./assets/images/mobileLengthPrompt.png)
+![Image of mobile view with prompt to enter a valid password length](./assets/images/mobileLengthValidationPrompt.png)
